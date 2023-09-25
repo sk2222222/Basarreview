@@ -1,0 +1,39 @@
+.vuesaxlinearmessageQuestionIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.iconHelpSupport {
+  width: 70px;
+  height: 40px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.sidebarContent,
+.sidebarDappCompany {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebarContent {
+  align-self: stretch;
+  height: 519px;
+  justify-content: flex-start;
+}
+.sidebarDappCompany {
+  background-color: var(--black-800);
+  width: 70px;
+  height: 1057px;
+  padding: var(--padding-xl) 0 var(--padding-11xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+}

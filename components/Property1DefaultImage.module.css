@@ -1,0 +1,6 @@
+.property1defaultIcon {
+  height: 135px;
+  overflow: hidden;
+  object-fit: cover;
+  flex: 1;
+}

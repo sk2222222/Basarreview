@@ -1,0 +1,52 @@
+.image1Icon {
+  top: calc(50% - 54px);
+  left: calc(50% - 54px);
+  border-radius: var(--br-181xl);
+  object-fit: cover;
+  display: none;
+}
+.groupChild,
+.image1Icon,
+.image1Parent {
+  position: absolute;
+  width: 138px;
+  height: 138px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-981xl);
+  object-fit: cover;
+}
+.image1Parent {
+  top: calc(50% - 69px);
+  left: calc(50% - 69px);
+}
+.profileImage {
+  position: relative;
+  width: 168px;
+  height: 168px;
+}
+@media screen and (max-width: 1200px) {
+  .groupChild {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .groupChild,
+  .image1Icon {
+    width: 100px;
+    height: 100px;
+  }
+  .profileImage {
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .groupChild,
+  .image1Parent {
+    width: 100px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,212 @@
+.header1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.headerChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2px;
+  flex-shrink: 0;
+}
+.header {
+  align-self: stretch;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.mywebsitecom {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.editWebsite,
+.editWebsite1,
+.mywebsitecomWrapper {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mywebsitecomWrapper {
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--white-100);
+  display: flex;
+  padding: var(--padding-3xs) var(--padding-lg);
+}
+.editWebsite,
+.editWebsite1 {
+  flex-wrap: wrap;
+  gap: var(--gap-mid);
+}
+.contact,
+.editWebsite,
+.editWebsite1,
+.header2,
+.header3 {
+  align-self: stretch;
+  display: flex;
+}
+.contact {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--white-50);
+  border: 1px solid var(--white-300);
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-11xl) var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.header2,
+.header3 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header2 {
+  height: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tags,
+.tags1 {
+  gap: var(--gap-3xs);
+}
+.tags1 {
+  align-self: stretch;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tags {
+  border-radius: var(--br-xl);
+  background-color: var(--white-50);
+  border: 1px solid var(--white-300);
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-11xl) var(--padding-3xs);
+}
+.companycontacttags,
+.divContacttags,
+.tags {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divContacttags {
+  width: 535px;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+  text-align: center;
+  font-size: var(--body-medium-medium-size);
+  color: var(--black-600);
+  font-family: var(--body-medium-medium);
+}
+.companycontacttags {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-small-medium-size);
+  color: var(--black-800);
+  font-family: var(--font-helvetica-now-display);
+}
+@media screen and (max-width: 1200px) {
+  .contact,
+  .tags {
+    width: 320px;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .contact {
+    transform: rotate(0deg);
+    padding: var(--padding-mini) var(--padding-xl) var(--padding-11xl);
+  }
+  .tags {
+    padding-top: var(--padding-mini);
+    padding-bottom: var(--padding-11xl);
+  }
+  .companycontacttags,
+  .divContacttags {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .divContacttags {
+    flex: 1;
+    flex-direction: column;
+  }
+  .companycontacttags {
+    align-self: stretch;
+    width: auto;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header {
+    align-self: stretch;
+    width: auto;
+    gap: var(--gap-0);
+    padding-left: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .contact,
+  .tags {
+    width: 260px;
+    padding: var(--padding-8xs) var(--padding-xl) var(--padding-xl)
+      var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .contact {
+    height: auto;
+  }
+  .tags {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contact,
+  .tags {
+    min-width: 385px;
+    max-width: 385px;
+  }
+  .companycontacttags {
+    width: auto;
+    align-self: unset;
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+}
+@media screen and (max-width: 393px) {
+  .contact,
+  .tags {
+    align-self: stretch;
+    width: auto;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    min-width: 365px;
+    max-width: 365px;
+  }
+  .divContacttags {
+    width: 365px;
+  }
+  .companycontacttags {
+    width: auto;
+    align-self: unset;
+    max-width: 385px;
+  }
+}

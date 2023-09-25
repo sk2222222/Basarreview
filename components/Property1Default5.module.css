@@ -1,0 +1,26 @@
+.notificationIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.notificationWrapper,
+.property1default {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.notificationWrapper {
+  border-radius: var(--br-11xl);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-5xs);
+}
+.property1default {
+  width: 60px;
+  height: 60px;
+  padding: var(--padding-3xs);
+}

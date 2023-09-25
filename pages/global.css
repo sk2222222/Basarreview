@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Helvetica+Now+Display:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica+Now+Text+:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-helvetica-now-display: "Helvetica Now Display";
+  --body-medium-medium: "DM Sans";
+  --font-helvetica-now-text-: "Helvetica Now Text ";
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --body-small-medium-size: 14px;
+  --font-size-xl: 20px;
+  --body-medium-medium-size: 16px;
+  --font-size-mini: 15px;
+  --font-size-smi: 13px;
+  --body-large-medium-size: 18px;
+
+  /* Colors */
+  --white-100: #f9f9f9;
+  --white-200: #f3f3f3;
+  --white-50: #fff;
+  --white-300: #e5e5e5;
+  --white-600: #797979;
+  --black-800: #151920;
+  --sea-700: #3244d7;
+  --black-500: #686d75;
+  --sea-10: #f2f4ff;
+  --black-600: #42474e;
+  --color-silver: #b3b9c1;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-10xl-2: 29.2px;
+  --gap-xl: 20px;
+  --gap-11xl: 30px;
+  --gap-8xs: 5px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-lg: 18px;
+  --gap-2xs: 11px;
+  --gap-mid: 17px;
+  --gap-0: 0px;
+  --gap-6xl: 25px;
+
+  /* Paddings */
+  --padding-11xl: 30px;
+  --padding-3xs: 10px;
+  --padding-111xl: 130px;
+  --padding-6xs: 7px;
+  --padding-8xs-6: 4.6px;
+  --padding-5xs: 8px;
+  --padding-10xs: 3px;
+  --padding-71xl: 90px;
+  --padding-6xl: 25px;
+  --padding-3xl: 22px;
+  --padding-101xl: 120px;
+  --padding-61xl: 80px;
+  --padding-mini: 15px;
+  --padding-8xs: 5px;
+  --padding-281xl: 300px;
+  --padding-xl: 20px;
+  --padding-lg: 18px;
+  --padding-37xl: 56px;
+  --padding-76xl: 95px;
+  --padding-30xl: 49px;
+  --padding-mid: 17px;
+  --padding-36xl: 55px;
+  --padding-16xl: 35px;
+  --padding-51xl: 70px;
+  --padding-7xs: 6px;
+  --padding-781xl: 800px;
+  --padding-816xl: 835px;
+  --padding-21xl: 40px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-11xl: 30px;
+  --br-xl: 20px;
+  --br-981xl: 1000px;
+  --br-56xl: 75px;
+  --br-181xl: 200px;
+  --br-5xs: 8px;
+
+  /* Effects */
+  --shadows-medium: 0px 2px 5px rgba(103, 110, 118, 0.08),
+    0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  --shadows-large: 0px 5px 15px rgba(0, 0, 0, 0.12),
+    0px 15px 35px rgba(103, 110, 118, 0.08);
+}

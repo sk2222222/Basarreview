@@ -1,0 +1,23 @@
+.heroiconsOutlineplus {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sizexsCornerssmoothState,
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer {
+  padding: var(--padding-3xs);
+}
+.sizexsCornerssmoothState {
+  border-radius: var(--br-81xl);
+  background-color: var(--black-800);
+  box-shadow: var(--shadows-medium);
+  overflow: hidden;
+}

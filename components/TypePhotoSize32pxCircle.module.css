@@ -1,0 +1,26 @@
+.imageIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component1Icon {
+  position: absolute;
+  bottom: 1px;
+  left: 2px;
+  width: 6px;
+  height: 6px;
+}
+.typephotoSize32pxCircle {
+  border-radius: var(--br-81xl);
+  width: 32px;
+  height: 32px;
+}

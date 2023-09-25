@@ -1,0 +1,15 @@
+.searchStatusIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.heroiconsOutlineplusSmall {
+  border-radius: var(--br-981xl);
+  background-color: var(--white-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}

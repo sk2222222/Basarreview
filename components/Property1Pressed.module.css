@@ -1,0 +1,15 @@
+.profileIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.property1pressed {
+  background-color: var(--sea-700);
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-6xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
